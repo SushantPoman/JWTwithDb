@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Entity
 @Data
 @AllArgsConstructor
@@ -52,7 +51,5 @@ public class Employee {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	
-	
 
 }
